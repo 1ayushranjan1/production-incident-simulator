@@ -1,0 +1,17 @@
+@ProductionIncidentSimulator.API_HostAddress = http://localhost:5178
+
+GET {{ProductionIncidentSimulator.API_HostAddress}}/api/orders
+
+POST {{ProductionIncidentSimulator.API_HostAddress}}/api/orders/create
+Content-Type: application/json
+
+
+POST {{ProductionIncidentSimulator.API_HostAddress}}/api/orders/create-with-keys
+Content-Type: application/json
+{
+  "customerName": "Ayush",
+  "vendor": "Microsoft"
+}
+
+
+###
