@@ -2,4 +2,5 @@
 {
     public string CustomerName { get; set; }
     public string Vendor { get; set; }
+
 }
